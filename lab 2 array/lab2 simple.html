@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <!-- Custom JavaScript -->
+ <script src="script2.js"></script>
+</head>
+<body>
+ <div class="container">
+ <h2>Search and Sort Integer Array</h2>
+ <p>Enter comma-separated integers:</p>
+ <input type="text" id="inputArray">
+ <br><br>
+ <button class="btn btn-primary" onclick="sortArray()">Sort</button>
+ <button class="btn btn-primary" onclick="searchArray()">Search</button>
+ <br><br>
+ <p id="outputArray"></p>
+ </div>
+ <div class="container">
+ <h2>Named Entities Array</h2>
+ <p>Enter named entities:</p>
+ <input type="text" id="inputEntities">
+ <br><br>
+ <button class="btn btn-primary" onclick="addEntity()">Add Entity</button>
+ <br><br>
+ <ul id="outputEntities"></ul>
+ </div>
+</body>
+</html>
